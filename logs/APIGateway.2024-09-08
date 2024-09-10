@@ -1,0 +1,448 @@
+2024-09-08 14:02:18.487,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 46364 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:02:18.490,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:02:19.055,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:02:19.064,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:02:19.064,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:02:19.095,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:02:19.095,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 578 ms
+2024-09-08 14:02:19.478,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:02:19.485,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.279 seconds (process running for 1.665)
+2024-09-08 14:02:56.600,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:02:56.600,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:02:56.601,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:10:15.761,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 46588 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:10:15.762,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:10:16.284,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:10:16.292,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:10:16.292,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:10:16.321,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:10:16.321,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 535 ms
+2024-09-08 14:10:16.666,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:10:16.672,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.172 seconds (process running for 1.536)
+2024-09-08 14:10:25.649,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:10:25.649,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:10:25.650,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:11:44.105,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 36528 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:11:44.107,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:11:44.627,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:11:44.635,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:11:44.636,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:11:44.665,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:11:44.665,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 535 ms
+2024-09-08 14:11:45.018,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:11:45.025,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.184 seconds (process running for 1.541)
+2024-09-08 14:11:51.072,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:11:51.072,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:11:51.073,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:11:51.127,INFO,[OAuthController.java:36],######
+2024-09-08 14:12:22.683,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 50332 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:12:22.685,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:12:23.218,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:12:23.225,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:12:23.225,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:12:23.254,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:12:23.254,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 545 ms
+2024-09-08 14:12:23.606,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:12:23.613,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.193 seconds (process running for 1.575)
+2024-09-08 14:12:27.403,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:12:27.403,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:12:27.404,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:12:27.456,INFO,[OAuthController.java:36],######
+2024-09-08 14:12:44.005,INFO,[OAuthController.java:36],######
+2024-09-08 14:14:24.461,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 33184 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:14:24.463,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:14:24.987,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:14:24.995,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:14:24.995,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:14:25.025,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:14:25.025,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 538 ms
+2024-09-08 14:14:25.375,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:14:25.381,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.177 seconds (process running for 1.55)
+2024-09-08 14:14:32.937,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:14:32.937,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:14:32.938,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:14:32.996,INFO,[OAuthController.java:36],######
+2024-09-08 14:14:32.996,INFO,[OAuthController.java:37],### null
+2024-09-08 14:21:12.203,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 35960 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:21:12.204,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:21:12.754,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:21:12.762,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:21:12.762,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:21:12.791,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:21:12.792,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 564 ms
+2024-09-08 14:21:13.138,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:21:13.144,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.215 seconds (process running for 1.588)
+2024-09-08 14:21:20.555,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:21:20.555,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:21:20.556,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:21:20.612,INFO,[OAuthController.java:36],######
+2024-09-08 14:21:20.612,INFO,[OAuthController.java:37],### null
+2024-09-08 14:21:42.982,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 40656 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:21:42.984,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:21:43.496,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:21:43.504,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:21:43.505,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:21:43.533,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:21:43.533,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 527 ms
+2024-09-08 14:21:43.886,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:21:43.892,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.169 seconds (process running for 1.541)
+2024-09-08 14:21:47.731,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:21:47.731,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:21:47.731,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-08 14:21:47.784,INFO,[OAuthController.java:36],######
+2024-09-08 14:21:47.785,INFO,[OAuthController.java:37],### null
+2024-09-08 14:25:24.160,INFO,[OAuthController.java:36],######
+2024-09-08 14:25:24.161,INFO,[OAuthController.java:37],###  8860909203926
+2024-09-08 14:27:29.007,INFO,[OAuthController.java:36],######
+2024-09-08 14:27:29.008,INFO,[OAuthController.java:37],### null
+2024-09-08 14:28:23.666,INFO,[OAuthController.java:36],######
+2024-09-08 14:28:23.667,INFO,[OAuthController.java:37],### +8860909203926
+2024-09-08 14:31:31.505,INFO,[OAuthController.java:36],######
+2024-09-08 14:31:31.505,INFO,[OAuthController.java:37],### null
+2024-09-08 14:37:40.418,INFO,[OAuthController.java:36],######
+2024-09-08 14:37:40.418,INFO,[OAuthController.java:37],###  8860909203926
+2024-09-08 14:39:54.863,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 39268 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:39:54.865,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:39:55.426,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:39:55.434,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:39:55.435,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:39:55.465,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:39:55.465,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 575 ms
+2024-09-08 14:39:55.832,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:39:55.839,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.249 seconds (process running for 1.63)
+2024-09-08 14:40:02.755,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:40:02.755,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:40:02.756,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:40:02.806,INFO,[OAuthController.java:36],######
+2024-09-08 14:40:41.145,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 44548 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:40:41.147,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:40:41.706,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:40:41.714,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:40:41.714,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:40:41.745,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:40:41.746,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 575 ms
+2024-09-08 14:40:42.114,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:40:42.120,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.255 seconds (process running for 1.639)
+2024-09-08 14:40:48.275,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:40:48.275,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:40:48.276,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:40:48.329,INFO,[OAuthController.java:37],######
+2024-09-08 14:42:04.477,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 48880 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:42:04.478,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:42:05.007,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:42:05.015,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:42:05.015,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:42:05.043,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:42:05.044,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 540 ms
+2024-09-08 14:42:05.404,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:42:05.410,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.201 seconds (process running for 1.569)
+2024-09-08 14:42:12.490,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:42:12.490,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:42:12.491,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:42:12.541,INFO,[OAuthController.java:37],######
+2024-09-08 14:43:03.340,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 50248 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:43:03.342,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:43:03.861,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:43:03.869,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:43:03.869,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:43:03.902,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:43:03.902,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 537 ms
+2024-09-08 14:43:04.246,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:43:04.252,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.178 seconds (process running for 1.55)
+2024-09-08 14:43:10.758,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:43:10.759,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:43:10.759,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-08 14:43:10.810,INFO,[OAuthController.java:37],######
+2024-09-08 14:43:10.811,INFO,[OAuthController.java:38],####  8860909203926
+2024-09-08 14:50:26.683,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 47668 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:50:26.684,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:50:27.226,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:50:27.234,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:50:27.235,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:50:27.265,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:50:27.265,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 556 ms
+2024-09-08 14:50:27.648,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:50:27.654,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.233 seconds (process running for 1.614)
+2024-09-08 14:50:33.897,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:50:33.897,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:50:33.898,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:50:33.951,INFO,[OAuthController.java:37],######
+2024-09-08 14:50:33.951,INFO,[OAuthController.java:38],####  8860909203926
+2024-09-08 14:50:56.119,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 3756 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:50:56.120,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:50:56.650,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:50:56.658,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:50:56.659,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:50:56.689,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:50:56.689,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 545 ms
+2024-09-08 14:50:57.047,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:50:57.054,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.202 seconds (process running for 1.591)
+2024-09-08 14:51:03.980,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:51:03.980,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:51:03.981,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:51:04.030,INFO,[OAuthController.java:37],######
+2024-09-08 14:51:04.030,INFO,[OAuthController.java:38],#### 8860909203926
+2024-09-08 14:51:44.394,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 41556 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:51:44.396,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:51:44.920,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:51:44.928,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:51:44.928,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:51:44.957,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:51:44.957,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 537 ms
+2024-09-08 14:51:45.304,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:51:45.310,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.182 seconds (process running for 1.546)
+2024-09-08 14:51:52.629,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:51:52.629,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:51:52.630,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:51:52.682,INFO,[OAuthController.java:38],phoneNumber: 8860909203926
+2024-09-08 14:51:52.682,INFO,[AAAUtils.java:64],result: {ReturnCode=0}
+2024-09-08 14:51:52.682,INFO,[OAuthController.java:42],stateMap: {ReturnCode=0}
+2024-09-08 14:51:52.682,INFO,[OAuthController.java:57],TWCA
+2024-09-08 14:55:02.050,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 45460 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:55:02.052,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:55:02.566,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:55:02.574,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:55:02.574,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:55:02.602,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:55:02.603,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 527 ms
+2024-09-08 14:55:02.942,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:55:02.948,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.16 seconds (process running for 1.519)
+2024-09-08 14:55:23.603,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:55:23.603,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:55:23.604,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:55:23.657,INFO,[OAuthController.java:38],phoneNumber: 8860909203926
+2024-09-08 14:55:23.658,INFO,[AAAUtils.java:59],result: {ReturnCode=0}
+2024-09-08 14:55:23.658,INFO,[AAAUtils.java:65],result: {ReturnCode=0}
+2024-09-08 14:55:23.658,INFO,[OAuthController.java:42],stateMap: {ReturnCode=0}
+2024-09-08 14:55:23.658,INFO,[OAuthController.java:57],TWCA
+2024-09-08 14:57:08.273,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 26344 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:57:08.275,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:57:08.776,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:57:08.783,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:57:08.784,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:57:08.812,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:57:08.812,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 514 ms
+2024-09-08 14:57:09.170,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:57:09.176,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.177 seconds (process running for 1.557)
+2024-09-08 14:57:15.738,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:57:15.738,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:57:15.739,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-08 14:57:15.791,INFO,[OAuthController.java:38],phoneNumber: 8860909203926
+2024-09-08 14:57:15.791,INFO,[AAAUtils.java:59],result: {ReturnCode=0}
+2024-09-08 14:57:15.792,INFO,[AAAUtils.java:65],result: {ReturnCode=0}
+2024-09-08 14:57:15.792,INFO,[OAuthController.java:42],stateMap: {ReturnCode=0}
+2024-09-08 14:57:15.792,INFO,[OAuthController.java:57],TWCA
+2024-09-08 14:58:53.389,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 43004 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 14:58:53.391,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 14:58:53.903,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 14:58:53.912,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 14:58:53.913,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 14:58:53.942,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 14:58:53.942,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 526 ms
+2024-09-08 14:58:54.274,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 14:58:54.280,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.151 seconds (process running for 1.524)
+2024-09-08 14:59:00.464,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:59:00.464,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 14:59:00.465,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 14:59:00.520,INFO,[OAuthController.java:38],phoneNumber: 8860909203926
+2024-09-08 14:59:00.521,INFO,[AAAUtils.java:56],str: <ReturnCode>0</ReturnCode><ReturnDesc>OK</ReturnDesc><RtnCode>1</RtnCode><StatusCode>0</StatusCode><OpCode>46697</OpCode><nwCode>0</nwCode>
+2024-09-08 14:59:00.521,INFO,[AAAUtils.java:60],result: {ReturnCode=0}
+2024-09-08 14:59:00.521,INFO,[AAAUtils.java:66],result: {ReturnCode=0}
+2024-09-08 14:59:00.521,INFO,[OAuthController.java:42],stateMap: {ReturnCode=0}
+2024-09-08 14:59:00.521,INFO,[OAuthController.java:57],TWCA
+2024-09-08 15:00:45.448,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 47044 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 15:00:45.449,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 15:00:45.977,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 15:00:45.985,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 15:00:45.986,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 15:00:46.014,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 15:00:46.015,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 543 ms
+2024-09-08 15:00:46.368,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 15:00:46.374,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.189 seconds (process running for 1.561)
+2024-09-08 15:00:52.836,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 15:00:52.836,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 15:00:52.837,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 15:00:52.889,INFO,[OAuthController.java:38],phoneNumber: 8860909203926
+2024-09-08 15:00:52.889,INFO,[AAAUtils.java:56],str: <ReturnCode>0</ReturnCode><ReturnDesc>OK</ReturnDesc><RtnCode>1</RtnCode><StatusCode>0</StatusCode><OpCode>46697</OpCode><nwCode>0</nwCode>
+2024-09-08 15:00:52.889,INFO,[AAAUtils.java:58],key: ReturnCode
+2024-09-08 15:00:52.889,INFO,[AAAUtils.java:60],value: 0
+2024-09-08 15:00:52.889,INFO,[AAAUtils.java:62],result: {ReturnCode=0}
+2024-09-08 15:00:52.890,INFO,[AAAUtils.java:68],result: {ReturnCode=0}
+2024-09-08 15:00:52.890,INFO,[OAuthController.java:42],stateMap: {ReturnCode=0}
+2024-09-08 15:00:52.890,INFO,[OAuthController.java:57],TWCA
+2024-09-08 15:04:05.820,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 6500 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 15:04:05.822,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 15:04:06.353,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 15:04:06.361,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 15:04:06.362,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 15:04:06.392,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 15:04:06.393,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 547 ms
+2024-09-08 15:04:06.755,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 15:04:06.761,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.21 seconds (process running for 1.6)
+2024-09-08 15:04:15.109,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 15:04:15.109,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 15:04:15.111,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-08 15:04:15.183,INFO,[OAuthController.java:38],phoneNumber: 8860909203926
+2024-09-08 15:04:15.184,INFO,[AAAUtils.java:56],str: <ReturnCode>0</ReturnCode><ReturnDesc>OK</ReturnDesc>
+2024-09-08 15:04:15.184,INFO,[AAAUtils.java:58],key: ReturnCode
+2024-09-08 15:04:15.184,INFO,[AAAUtils.java:60],value: 0
+2024-09-08 15:04:15.184,INFO,[AAAUtils.java:62],result: {ReturnCode=0}
+2024-09-08 15:04:15.184,INFO,[AAAUtils.java:56],str: <StatusCode>0</StatusCode><OpCode>46697</OpCode><nwCode>0</nwCode>
+2024-09-08 15:04:15.184,INFO,[AAAUtils.java:58],key: StatusCode
+2024-09-08 15:04:15.184,INFO,[AAAUtils.java:60],value: 0
+2024-09-08 15:04:15.184,INFO,[AAAUtils.java:62],result: {ReturnCode=0, StatusCode=0}
+2024-09-08 15:04:15.184,INFO,[AAAUtils.java:68],result: {ReturnCode=0, StatusCode=0}
+2024-09-08 15:04:15.185,INFO,[OAuthController.java:42],stateMap: {ReturnCode=0, StatusCode=0}
+2024-09-08 15:04:15.185,INFO,[OAuthController.java:57],TWCA
+2024-09-08 15:04:45.186,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 48996 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 15:04:45.188,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 15:04:45.714,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 15:04:45.723,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 15:04:45.723,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 15:04:45.752,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 15:04:45.752,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 540 ms
+2024-09-08 15:04:46.113,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 15:04:46.118,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.192 seconds (process running for 1.551)
+2024-09-08 15:04:51.875,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 15:04:51.875,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 15:04:51.876,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 15:04:51.930,INFO,[OAuthController.java:38],phoneNumber: 8860909203926
+2024-09-08 15:04:51.930,INFO,[AAAUtils.java:56],str: <ReturnCode>0</ReturnCode>
+2024-09-08 15:04:51.931,INFO,[AAAUtils.java:58],key: ReturnCode
+2024-09-08 15:04:51.931,INFO,[AAAUtils.java:60],value: 0
+2024-09-08 15:04:51.931,INFO,[AAAUtils.java:62],result: {ReturnCode=0}
+2024-09-08 15:04:51.931,INFO,[AAAUtils.java:56],str: <RtnCode>1</RtnCode><StatusCode>0</StatusCode><OpCode>46697</OpCode><nwCode>0</nwCode>
+2024-09-08 15:04:51.931,INFO,[AAAUtils.java:58],key: RtnCode
+2024-09-08 15:04:51.931,INFO,[AAAUtils.java:60],value: 1
+2024-09-08 15:04:51.931,INFO,[AAAUtils.java:62],result: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:04:51.931,INFO,[AAAUtils.java:68],result: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:04:51.931,INFO,[OAuthController.java:42],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:04:52.052,INFO,[AuthUtils.java:61],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=null&redirect_uri=null&response_type=code&scope=null&state=null}
+2024-09-08 15:04:52.052,INFO,[OAuthController.java:47],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=null&redirect_uri=null&response_type=code&scope=null&state=null}
+2024-09-08 15:07:39.010,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 30380 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 15:07:39.012,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 15:07:39.565,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 15:07:39.573,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 15:07:39.573,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 15:07:39.603,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 15:07:39.603,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 565 ms
+2024-09-08 15:07:39.978,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 15:07:39.983,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.249 seconds (process running for 1.624)
+2024-09-08 15:08:04.786,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 15:08:04.786,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 15:08:04.787,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 15:08:04.840,INFO,[OAuthController.java:38],phoneNumber: 8860909203926
+2024-09-08 15:08:04.840,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:08:04.840,INFO,[OAuthController.java:42],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:08:04.959,INFO,[AuthUtils.java:61],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=null&redirect_uri=null&response_type=code&scope=null&state=null}
+2024-09-08 15:08:04.960,INFO,[OAuthController.java:47],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=null&redirect_uri=null&response_type=code&scope=null&state=null}
+2024-09-08 15:10:53.668,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 27968 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 15:10:53.670,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 15:10:54.206,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 15:10:54.215,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 15:10:54.215,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 15:10:54.245,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 15:10:54.246,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 551 ms
+2024-09-08 15:10:54.620,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 15:10:54.626,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.238 seconds (process running for 1.628)
+2024-09-08 15:11:06.233,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 15:11:06.233,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 15:11:06.234,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 15:11:06.283,INFO,[OAuthController.java:38],phoneNumber: 8860909203926
+2024-09-08 15:11:06.283,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:11:06.283,INFO,[OAuthController.java:42],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:11:06.399,INFO,[AuthUtils.java:61],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=null&redirect_uri=null&response_type=code&scope=null&state=null}
+2024-09-08 15:11:06.399,INFO,[OAuthController.java:47],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=null&redirect_uri=null&response_type=code&scope=null&state=null}
+2024-09-08 15:12:51.917,INFO,[OAuthController.java:38],phoneNumber: 8860909203926
+2024-09-08 15:12:51.917,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:12:51.917,INFO,[OAuthController.java:42],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:12:51.983,INFO,[AuthUtils.java:61],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=null&redirect_uri=null&response_type=code&scope=null&state=null}
+2024-09-08 15:12:51.984,INFO,[OAuthController.java:47],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=null&redirect_uri=null&response_type=code&scope=null&state=null}
+2024-09-08 15:16:23.426,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 25476 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 15:16:23.428,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 15:16:23.978,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 15:16:23.986,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 15:16:23.987,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 15:16:24.017,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 15:16:24.017,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 563 ms
+2024-09-08 15:16:24.386,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 15:16:24.391,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.24 seconds (process running for 1.63)
+2024-09-08 15:16:31.497,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 15:16:31.497,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 15:16:31.498,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 15:16:31.553,INFO,[OAuthController.java:35],Meta,code,number-verification-verify-read,http://localhost:8441/ApiGateway/api/token,null, 8860909203926
+2024-09-08 15:16:31.553,INFO,[OAuthController.java:39],phoneNumber: 8860909203926
+2024-09-08 15:16:31.553,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:16:31.553,INFO,[OAuthController.java:43],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:16:31.601,INFO,[AuthUtils.java:61],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=null&redirect_uri=null&response_type=code&scope=null&state=null}
+2024-09-08 15:16:31.601,INFO,[OAuthController.java:48],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=null&redirect_uri=null&response_type=code&scope=null&state=null}
+2024-09-08 15:20:15.220,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 33908 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 15:20:15.222,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 15:20:15.742,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 15:20:15.749,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 15:20:15.750,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 15:20:15.780,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 15:20:15.781,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 537 ms
+2024-09-08 15:20:16.132,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 15:20:16.138,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.176 seconds (process running for 1.543)
+2024-09-08 15:20:22.707,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 15:20:22.708,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 15:20:22.708,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-08 15:20:22.763,INFO,[OAuthController.java:35],Meta,code,number-verification-verify-read,http://localhost:8441/ApiGateway/api/token,null, 8860909203926
+2024-09-08 15:20:22.763,INFO,[OAuthController.java:39],phoneNumber: 8860909203926
+2024-09-08 15:20:22.764,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:20:22.764,INFO,[OAuthController.java:43],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:20:22.807,INFO,[AuthUtils.java:53],response: <200 OK OK,{"returnCode":"00","authorizeUrl":"http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926"},[Content-Type:"text/plain;charset=UTF-8", Content-Length:"225", Date:"Sun, 08 Sep 2024 07:20:22 GMT", Keep-Alive:"timeout=60", Connection:"keep-alive"]>
+2024-09-08 15:20:22.810,INFO,[AuthUtils.java:66],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-08 15:20:22.811,INFO,[OAuthController.java:48],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-08 15:21:42.699,INFO,[OAuthController.java:35],Meta,code,number-verification-verify-read,http://localhost:8441/ApiGateway/api/token,null, 8860909203926
+2024-09-08 15:21:42.700,INFO,[OAuthController.java:39],phoneNumber: 8860909203926
+2024-09-08 15:21:42.700,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:21:42.700,INFO,[OAuthController.java:43],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:21:42.770,INFO,[AuthUtils.java:53],response: <200 OK OK,{"returnCode":"00","authorizeUrl":"http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926"},[Content-Type:"text/plain;charset=UTF-8", Content-Length:"225", Date:"Sun, 08 Sep 2024 07:21:42 GMT", Keep-Alive:"timeout=60", Connection:"keep-alive"]>
+2024-09-08 15:21:42.771,INFO,[AuthUtils.java:66],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-08 15:21:42.771,INFO,[OAuthController.java:48],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-08 15:25:49.513,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 23840 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 15:25:49.515,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 15:25:50.092,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 15:25:50.101,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 15:25:50.101,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 15:25:50.132,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 15:25:50.133,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 593 ms
+2024-09-08 15:25:50.261,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 46496 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-08 15:25:50.263,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-08 15:25:50.518,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-08 15:25:50.524,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.291 seconds (process running for 1.678)
+2024-09-08 15:25:50.824,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-08 15:25:50.832,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-08 15:25:50.832,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-08 15:25:50.861,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-08 15:25:50.861,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 575 ms
+2024-09-08 15:25:51.218,WARN,[AbstractApplicationContext.java:633],Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-08 15:25:51.228,INFO,[ConditionEvaluationReportLogger.java:82],
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-08 15:25:51.238,ERROR,[LoggingFailureAnalysisReporter.java:40],
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8441 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8441 or configure this application to listen on another port.
+
+2024-09-08 15:26:08.531,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 15:26:08.532,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-08 15:26:08.533,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-08 15:26:08.613,INFO,[OAuthController.java:35],Meta,code,number-verification-verify-read,http://localhost:8441/ApiGateway/api/token,null, 8860909203926
+2024-09-08 15:26:08.613,INFO,[OAuthController.java:39],phoneNumber: 8860909203926
+2024-09-08 15:26:08.614,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:26:08.614,INFO,[OAuthController.java:43],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-08 15:26:08.760,INFO,[AuthUtils.java:53],response: <200 OK OK,{"returnCode":"00","authorizeUrl":"http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926"},[Content-Type:"text/plain;charset=UTF-8", Content-Length:"225", Date:"Sun, 08 Sep 2024 07:26:08 GMT", Keep-Alive:"timeout=60", Connection:"keep-alive"]>
+2024-09-08 15:26:08.765,INFO,[AuthUtils.java:66],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-08 15:26:08.766,INFO,[OAuthController.java:48],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}

@@ -1,0 +1,28 @@
+2024-09-06 17:27:29.259,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 35868 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-06 17:27:29.262,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-06 17:27:30.341,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-06 17:27:30.359,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-06 17:27:30.361,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06 17:27:30.425,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-06 17:27:30.425,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 1121 ms
+2024-09-06 17:27:31.646,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-06 17:27:31.664,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 2.94 seconds (process running for 3.729)
+2024-09-06 17:28:34.526,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 45236 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-06 17:28:34.530,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-06 17:28:35.896,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-06 17:28:35.910,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-06 17:28:35.911,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06 17:28:35.996,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-06 17:28:35.997,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 1402 ms
+2024-09-06 17:28:36.855,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-06 17:28:36.868,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 3.025 seconds (process running for 3.9)
+2024-09-06 17:52:34.456,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 45724 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-06 17:52:34.460,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-06 17:52:35.540,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-06 17:52:35.555,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-06 17:52:35.558,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06 17:52:35.622,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-06 17:52:35.623,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 1108 ms
+2024-09-06 17:52:36.255,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-06 17:52:36.265,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 2.42 seconds (process running for 3.25)
+2024-09-06 17:52:38.178,INFO,[SpringApplicationAdminMXBeanRegistrar.java:159],Application shutdown requested.

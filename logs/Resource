@@ -1,0 +1,821 @@
+2024-09-09 09:45:10.831,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 25352 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 09:45:10.837,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 09:45:11.363,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 09:45:11.371,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 09:45:11.372,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 09:45:11.402,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 09:45:11.403,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 543 ms
+2024-09-09 09:45:11.770,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 09:45:11.777,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.228 seconds (process running for 1.623)
+2024-09-09 09:45:51.807,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 09:45:51.807,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 09:45:51.809,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 09:45:51.922,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 09:45:51.923,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 09:45:52.164,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 09:45:52.164,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 09:45:52.774,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 09:45:52.774,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 09:56:01.360,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 09:56:01.361,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 09:56:01.367,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 09:56:01.367,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 09:56:01.391,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 09:56:01.391,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 09:59:21.600,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 47748 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 09:59:21.602,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 09:59:22.125,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 09:59:22.133,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 09:59:22.133,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 09:59:22.165,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 09:59:22.166,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 542 ms
+2024-09-09 09:59:22.523,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 09:59:22.529,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.192 seconds (process running for 1.578)
+2024-09-09 09:59:35.515,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 09:59:35.515,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 09:59:35.516,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 09:59:35.568,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 09:59:35.568,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 09:59:35.610,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 09:59:35.611,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 09:59:35.665,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 09:59:35.666,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 09:59:35.667,INFO,[ResourceService.java:40],phoneNumberMap: {phoneNumber=+8860909203926}
+2024-09-09 09:59:35.668,INFO,[ResourceService.java:43],pnRequest: com.taiwanmobile.pt.APIGateway.vo.PhoneNumberRequest@14ded7a3
+2024-09-09 10:01:58.308,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 29208 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 10:01:58.310,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 10:01:58.834,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 10:01:58.845,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 10:01:58.845,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 10:01:58.877,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 10:01:58.877,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 543 ms
+2024-09-09 10:01:59.240,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 10:01:59.246,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.208 seconds (process running for 1.575)
+2024-09-09 10:02:17.447,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 10:02:17.447,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 10:02:17.448,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 10:02:17.499,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:02:17.499,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:02:17.610,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:02:17.611,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:02:17.989,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 10:02:17.989,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 10:04:45.297,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 44184 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 10:04:45.299,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 10:04:45.820,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 10:04:45.828,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 10:04:45.828,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 10:04:45.857,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 10:04:45.857,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 533 ms
+2024-09-09 10:04:46.211,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 10:04:46.217,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.172 seconds (process running for 1.545)
+2024-09-09 10:04:58.439,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 10:04:58.439,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 10:04:58.440,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 10:04:58.489,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:04:58.489,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:04:58.605,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:04:58.605,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:04:58.992,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 10:04:58.992,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 10:09:40.958,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 31608 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 10:09:40.960,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 10:09:41.500,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 10:09:41.510,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 10:09:41.510,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 10:09:41.547,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 10:09:41.547,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 564 ms
+2024-09-09 10:09:41.931,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 10:09:41.936,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.256 seconds (process running for 1.63)
+2024-09-09 10:10:06.964,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 10:10:06.964,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 10:10:06.965,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 10:10:07.017,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:10:07.017,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:10:07.123,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:10:07.124,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:10:07.511,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 10:10:07.511,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 10:11:45.832,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 18924 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 10:11:45.833,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 10:11:46.390,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 10:11:46.398,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 10:11:46.399,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 10:11:46.430,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 10:11:46.430,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 572 ms
+2024-09-09 10:11:46.790,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 10:11:46.796,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.236 seconds (process running for 1.626)
+2024-09-09 10:12:06.530,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 10:12:06.530,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 10:12:06.531,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 10:12:06.586,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:12:06.586,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:12:06.701,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:12:06.701,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:12:07.089,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 10:12:07.090,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 10:14:56.019,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 44580 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 10:14:56.020,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 10:14:56.569,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 10:14:56.578,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 10:14:56.578,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 10:14:56.607,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 10:14:56.608,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 563 ms
+2024-09-09 10:14:56.985,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 10:14:56.991,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.24 seconds (process running for 1.622)
+2024-09-09 10:15:32.545,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 10:15:32.546,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 10:15:32.548,INFO,[FrameworkServlet.java:554],Completed initialization in 2 ms
+2024-09-09 10:15:32.602,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:15:32.602,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:15:32.773,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:15:32.773,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:15:33.445,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 10:15:33.445,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 10:17:56.504,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:17:56.504,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:17:56.509,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:17:56.509,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:17:56.531,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 10:17:56.531,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 10:18:15.862,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:18:15.862,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:18:15.867,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:18:15.867,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:18:15.888,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 10:18:15.888,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 10:19:35.448,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:19:35.448,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:19:35.453,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:19:35.453,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:19:35.474,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 10:19:35.474,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 10:21:20.048,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:21:20.049,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:21:20.053,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:21:20.054,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=8860909203926}
+2024-09-09 10:21:20.074,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 10:21:20.075,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+8860909203926"}
+2024-09-09 10:22:08.563,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:22:08.563,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:22:08.568,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 10:22:08.568,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 10:22:08.602,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 10:22:08.603,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 10:23:58.736,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 33436 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 10:23:58.738,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 10:23:59.259,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 10:23:59.267,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 10:23:59.267,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 10:23:59.297,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 10:23:59.298,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 536 ms
+2024-09-09 10:23:59.673,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 10:23:59.680,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.204 seconds (process running for 1.594)
+2024-09-09 10:24:07.559,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 10:24:07.560,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 10:24:07.561,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 10:24:07.641,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:24:07.642,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 10:24:07.818,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 10:24:07.819,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 10:24:08.386,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 10:24:08.387,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 11:13:10.144,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 18836 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 11:13:10.146,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 11:13:10.694,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 11:13:10.702,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 11:13:10.702,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 11:13:10.733,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 11:13:10.733,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 563 ms
+2024-09-09 11:13:11.116,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 11:13:11.122,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.252 seconds (process running for 1.643)
+2024-09-09 11:13:35.365,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 11:13:35.365,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 11:13:35.366,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 11:13:35.444,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:13:35.444,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:13:35.636,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 11:13:35.636,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 11:13:36.263,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 11:13:36.263,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 11:15:23.581,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:15:23.581,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:15:23.590,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 11:15:23.591,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 11:15:23.642,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 11:15:23.642,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 11:18:38.245,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 25768 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 11:18:38.247,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 11:18:38.780,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 11:18:38.788,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 11:18:38.788,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 11:18:38.817,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 11:18:38.817,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 546 ms
+2024-09-09 11:18:39.191,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 11:18:39.197,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.223 seconds (process running for 1.602)
+2024-09-09 11:19:00.354,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 11:19:00.354,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 11:19:00.355,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 11:19:00.429,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:19:00.429,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:19:00.601,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 11:19:00.602,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 11:19:01.227,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 11:19:01.227,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 11:26:21.370,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 25352 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 11:26:21.371,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 11:26:21.895,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 11:26:21.903,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 11:26:21.903,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 11:26:21.934,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 11:26:21.934,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 539 ms
+2024-09-09 11:26:22.312,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 11:26:22.318,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.223 seconds (process running for 1.608)
+2024-09-09 11:26:44.076,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 11:26:44.077,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 11:26:44.079,INFO,[FrameworkServlet.java:554],Completed initialization in 2 ms
+2024-09-09 11:26:44.162,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:26:44.162,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:26:44.393,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:26:44.394,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:29:53.303,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:29:53.304,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:29:53.312,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:29:53.312,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:31:19.860,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:31:19.861,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:31:19.868,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:31:19.868,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:31:20.104,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 11:31:20.104,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 11:32:35.273,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 51752 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 11:32:35.274,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 11:32:35.824,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 11:32:35.832,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 11:32:35.832,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 11:32:35.864,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 11:32:35.864,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 566 ms
+2024-09-09 11:32:36.226,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 11:32:36.231,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.23 seconds (process running for 1.612)
+2024-09-09 11:33:02.091,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 11:33:02.091,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 11:33:02.092,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 11:33:02.169,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:33:02.169,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:33:02.392,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:33:02.393,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:33:02.982,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 11:33:02.982,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 11:34:59.704,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:34:59.704,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:34:59.708,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:34:59.709,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:34:59.730,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 11:34:59.730,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 11:36:19.523,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:36:19.523,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:36:19.527,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:36:19.527,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:36:19.549,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 11:36:19.549,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 11:53:46.683,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 47896 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 11:53:46.685,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 11:53:47.226,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 11:53:47.234,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 11:53:47.234,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 11:53:47.265,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 11:53:47.266,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 555 ms
+2024-09-09 11:53:47.644,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 11:53:47.650,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.239 seconds (process running for 1.618)
+2024-09-09 11:53:55.201,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 11:53:55.201,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 11:53:55.202,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 11:53:55.285,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:53:55.285,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 11:53:55.533,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:53:55.533,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 11:53:56.239,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 11:53:56.240,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 11:58:52.073,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 41156 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 11:58:52.075,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 11:58:52.617,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 11:58:52.625,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 11:58:52.626,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 11:58:52.655,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 11:58:52.655,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 557 ms
+2024-09-09 11:58:53.030,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 11:58:53.036,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.232 seconds (process running for 1.603)
+2024-09-09 12:03:12.903,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 12:03:12.904,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 12:03:12.905,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 12:03:12.951,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:03:12.951,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:03:13.064,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:03:13.064,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:03:13.427,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 12:03:13.427,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 12:03:58.970,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 37260 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 12:03:58.972,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 12:03:59.518,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 12:03:59.526,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 12:03:59.526,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:03:59.554,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 12:03:59.554,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 558 ms
+2024-09-09 12:03:59.925,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 12:03:59.931,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.236 seconds (process running for 1.641)
+2024-09-09 12:04:20.363,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 12:04:20.363,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 12:04:20.365,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 12:04:20.446,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:04:20.447,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:04:20.624,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:04:20.624,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:04:21.228,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:04:21.228,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:07:19.621,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:07:19.622,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:07:19.631,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:07:19.632,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:07:19.666,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:07:19.666,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:08:43.090,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:08:43.091,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:08:43.096,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:08:43.096,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:08:43.118,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:08:43.118,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:09:33.444,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:09:33.444,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:09:33.448,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:09:33.448,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:09:33.469,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:09:33.470,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:10:43.627,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:10:43.627,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:10:43.631,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:10:43.631,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:10:43.673,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:10:43.673,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:11:59.186,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:11:59.187,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:11:59.191,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:11:59.191,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:11:59.209,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:11:59.209,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:12:54.188,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:12:54.189,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:12:54.193,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:12:54.193,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:12:54.214,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:12:54.214,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:15:06.570,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 52492 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 12:15:06.571,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 12:15:07.110,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 12:15:07.118,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 12:15:07.119,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:15:07.150,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 12:15:07.150,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 555 ms
+2024-09-09 12:15:07.530,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 12:15:07.536,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.237 seconds (process running for 1.615)
+2024-09-09 12:15:16.659,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 12:15:16.659,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 12:15:16.660,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 12:15:16.713,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:15:16.713,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:15:16.826,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:15:16.826,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:15:17.201,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:15:17.202,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:16:54.839,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 47252 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 12:16:54.840,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 12:16:55.382,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 12:16:55.391,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 12:16:55.392,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:16:55.424,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 12:16:55.424,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 558 ms
+2024-09-09 12:16:55.790,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 12:16:55.797,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.227 seconds (process running for 1.627)
+2024-09-09 12:17:03.456,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 12:17:03.456,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 12:17:03.457,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 12:17:03.509,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:17:03.509,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:17:03.619,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:17:03.619,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:17:03.994,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:17:03.994,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:18:18.876,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 29128 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 12:18:18.878,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 12:18:19.395,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 12:18:19.402,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 12:18:19.403,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:18:19.432,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 12:18:19.432,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 530 ms
+2024-09-09 12:18:19.784,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 12:18:19.790,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.177 seconds (process running for 1.535)
+2024-09-09 12:18:25.144,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 12:18:25.145,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 12:18:25.145,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-09 12:18:25.195,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:18:25.196,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:18:25.238,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:18:25.238,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:18:25.286,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:18:25.287,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:18:25.324,INFO,[ResourceController.java:102],result: {roaming=true, countryCode=81.0, countryName=[Japan]}
+2024-09-09 12:22:17.907,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 51544 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 12:22:17.909,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 12:22:18.468,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 12:22:18.477,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 12:22:18.477,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:22:18.509,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 12:22:18.509,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 576 ms
+2024-09-09 12:22:18.896,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 12:22:18.902,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.271 seconds (process running for 1.652)
+2024-09-09 12:22:29.398,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 12:22:29.399,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 12:22:29.400,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 12:22:29.451,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:22:29.451,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:22:29.566,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:22:29.567,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:22:30.285,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:22:30.286,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:24:41.958,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 51500 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 12:24:41.960,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 12:24:42.483,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 12:24:42.491,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 12:24:42.491,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:24:42.520,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 12:24:42.521,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 538 ms
+2024-09-09 12:24:42.861,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 12:24:42.866,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.171 seconds (process running for 1.538)
+2024-09-09 12:24:48.119,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 12:24:48.119,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 12:24:48.120,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 12:24:48.170,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:24:48.171,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:24:48.213,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:24:48.213,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:24:48.266,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:24:48.266,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:24:48.304,INFO,[ResourceService.java:69],roamingResp: {roaming=true, countryCode=81.0, countryName=[Japan]}
+2024-09-09 12:25:21.340,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 11804 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 12:25:21.341,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 12:25:21.899,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 12:25:21.907,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 12:25:21.908,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:25:21.940,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 12:25:21.940,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 573 ms
+2024-09-09 12:25:22.317,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 12:25:22.324,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.248 seconds (process running for 1.635)
+2024-09-09 12:25:26.816,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 12:25:26.816,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 12:25:26.817,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 12:25:26.868,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:25:26.868,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:25:26.909,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:25:26.910,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:25:26.962,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:25:26.962,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:25:26.995,INFO,[ResourceService.java:69],roamingResp: {roaming=true, countryCode=81.0, countryName=[Japan]}
+2024-09-09 12:26:05.582,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 53080 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 12:26:05.584,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 12:26:06.108,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 12:26:06.117,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 12:26:06.117,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:26:06.146,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 12:26:06.147,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 540 ms
+2024-09-09 12:26:06.503,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 12:26:06.510,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.196 seconds (process running for 1.584)
+2024-09-09 12:26:14.747,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 12:26:14.747,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 12:26:14.749,INFO,[FrameworkServlet.java:554],Completed initialization in 2 ms
+2024-09-09 12:26:14.842,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:26:14.843,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 12:26:14.923,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:26:14.924,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 12:26:15.007,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 12:26:15.008,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 12:26:15.060,INFO,[ResourceService.java:69],roamingResp: {roaming=true, countryCode=81.0, countryName=[Japan]}
+2024-09-09 13:46:02.236,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 53736 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 13:46:02.238,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 13:46:02.783,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 13:46:02.793,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 13:46:02.793,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 13:46:02.826,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 13:46:02.827,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 564 ms
+2024-09-09 13:46:03.214,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 13:46:03.221,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.264 seconds (process running for 1.647)
+2024-09-09 13:46:13.514,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 13:46:13.514,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 13:46:13.514,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-09 13:46:13.587,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:46:13.587,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:46:13.777,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:46:13.778,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:46:14.520,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 13:46:14.521,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 13:46:15.039,INFO,[ResourceService.java:69],roamingResp: 81.0
+2024-09-09 13:46:15.040,INFO,[ResourceController.java:102],result: {roaming=true, countryCode=81.0, countryName=[Japan]}
+2024-09-09 13:47:05.160,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 52460 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 13:47:05.162,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 13:47:05.700,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 13:47:05.710,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 13:47:05.710,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 13:47:05.741,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 13:47:05.741,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 556 ms
+2024-09-09 13:47:06.113,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 13:47:06.119,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.223 seconds (process running for 1.602)
+2024-09-09 13:47:10.951,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 13:47:10.952,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 13:47:10.952,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-09 13:47:11.004,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:47:11.004,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:47:11.116,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:47:11.116,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:47:11.692,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 13:47:11.692,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 13:47:49.864,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 19580 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 13:47:49.866,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 13:47:50.389,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 13:47:50.396,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 13:47:50.397,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 13:47:50.427,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 13:47:50.427,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 537 ms
+2024-09-09 13:47:50.775,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 13:47:50.782,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.193 seconds (process running for 1.569)
+2024-09-09 13:47:55.358,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 13:47:55.358,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 13:47:55.358,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-09 13:47:55.408,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:47:55.408,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:47:55.452,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:47:55.452,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:47:55.507,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 13:47:55.507,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 13:47:55.541,INFO,[ResourceService.java:69],roamingResp: 81.0
+2024-09-09 13:47:55.542,INFO,[ResourceController.java:102],result: {roaming=true, countryCode=81.0, countryName=[Japan]}
+2024-09-09 13:50:49.665,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 27320 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 13:50:49.667,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 13:50:50.213,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 13:50:50.222,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 13:50:50.222,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 13:50:50.252,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 13:50:50.253,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 560 ms
+2024-09-09 13:50:50.643,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 13:50:50.650,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.252 seconds (process running for 1.648)
+2024-09-09 13:51:01.688,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 13:51:01.688,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 13:51:01.690,INFO,[FrameworkServlet.java:554],Completed initialization in 2 ms
+2024-09-09 13:51:01.790,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:51:01.791,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:51:01.992,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:51:01.993,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:51:02.562,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 13:51:02.563,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 13:55:41.383,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 53256 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 13:55:41.384,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 13:55:41.903,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 13:55:41.911,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 13:55:41.911,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 13:55:41.940,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 13:55:41.940,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 532 ms
+2024-09-09 13:55:42.281,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 13:55:42.286,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.172 seconds (process running for 1.543)
+2024-09-09 13:55:48.429,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 13:55:48.429,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 13:55:48.430,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 13:55:48.484,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:55:48.485,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:55:48.537,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:55:48.537,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:55:48.592,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 13:55:48.592,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 13:57:55.519,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 55476 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 13:57:55.521,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 13:57:56.077,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 13:57:56.087,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 13:57:56.088,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 13:57:56.122,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 13:57:56.122,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 575 ms
+2024-09-09 13:57:56.519,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 13:57:56.526,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.279 seconds (process running for 1.668)
+2024-09-09 13:58:05.593,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 13:58:05.593,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 13:58:05.594,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 13:58:05.650,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:58:05.650,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:58:05.761,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:58:05.762,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:58:06.163,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 13:58:06.163,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 13:58:55.264,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 53884 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 13:58:55.266,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 13:58:55.788,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 13:58:55.799,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 13:58:55.800,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 13:58:55.831,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 13:58:55.831,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 543 ms
+2024-09-09 13:58:56.200,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 13:58:56.206,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.207 seconds (process running for 1.573)
+2024-09-09 13:59:01.803,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 13:59:01.803,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 13:59:01.803,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-09 13:59:01.860,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:59:01.860,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 13:59:01.904,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:59:01.905,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 13:59:01.954,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 13:59:01.955,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 13:59:59.649,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 40896 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 13:59:59.651,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 14:00:00.188,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 14:00:00.196,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 14:00:00.196,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 14:00:00.227,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 14:00:00.227,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 552 ms
+2024-09-09 14:00:00.599,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 14:00:00.608,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.226 seconds (process running for 1.612)
+2024-09-09 14:00:09.138,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 14:00:09.140,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 14:00:09.140,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-09 14:00:09.198,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:00:09.198,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:00:09.309,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:00:09.309,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:00:09.714,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:00:09.715,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:00:10.013,INFO,[ResourceService.java:69],roamingResp: 81
+2024-09-09 14:00:10.014,INFO,[ResourceController.java:102],result: {roaming=true, countryCode=81.0, countryName=[Japan]}
+2024-09-09 14:02:16.764,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 41008 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 14:02:16.765,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 14:02:17.288,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 14:02:17.296,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 14:02:17.296,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 14:02:17.326,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 14:02:17.327,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 538 ms
+2024-09-09 14:02:17.667,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 14:02:17.673,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.166 seconds (process running for 1.535)
+2024-09-09 14:02:23.967,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 14:02:23.967,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 14:02:23.968,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 14:02:24.022,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:02:24.023,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:02:24.068,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:02:24.069,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:02:24.124,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:02:24.124,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:02:40.106,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 32648 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 14:02:40.108,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 14:02:40.624,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 14:02:40.631,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 14:02:40.632,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 14:02:40.660,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 14:02:40.661,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 531 ms
+2024-09-09 14:02:41.002,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 14:02:41.008,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.168 seconds (process running for 1.542)
+2024-09-09 14:02:46.747,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 14:02:46.748,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 14:02:46.748,INFO,[FrameworkServlet.java:554],Completed initialization in 0 ms
+2024-09-09 14:02:46.799,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:02:46.799,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:02:46.843,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:02:46.843,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:02:46.894,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:02:46.894,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:02:46.928,INFO,[ResourceController.java:102],result: {roaming=true, countryCode=81, countryName=[Japan]}
+2024-09-09 14:03:01.970,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:03:01.972,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:03:01.980,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886931656263}
+2024-09-09 14:03:01.980,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886931656263}
+2024-09-09 14:03:02.008,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:03:02.008,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886931656263","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:03:02.020,INFO,[ResourceController.java:102],result: {roaming=true, countryCode=886, countryName=[Taiwan]}
+2024-09-09 14:03:16.903,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:03:16.904,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:03:16.911,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:03:16.911,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:03:16.939,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:03:16.940,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:03:16.966,INFO,[ResourceController.java:102],result: {roaming=true, countryCode=81, countryName=[Japan]}
+2024-09-09 14:03:29.993,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:03:29.994,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:03:30.001,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886931656263}
+2024-09-09 14:03:30.002,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886931656263}
+2024-09-09 14:03:30.032,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:03:30.032,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886931656263","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:03:30.051,INFO,[ResourceController.java:102],result: {roaming=true, countryCode=886, countryName=[Taiwan]}
+2024-09-09 14:04:16.935,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:04:16.936,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:04:16.941,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886931656263}
+2024-09-09 14:04:16.941,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886931656263}
+2024-09-09 14:04:16.963,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:04:16.964,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886931656263","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:04:17.265,INFO,[ResourceController.java:102],result: {roaming=false}
+2024-09-09 14:04:22.970,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:04:22.970,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:04:22.977,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:04:22.978,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:04:23.014,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:04:23.015,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:04:23.051,INFO,[ResourceController.java:102],result: {roaming=true, countryCode=81, countryName=[Japan]}
+2024-09-09 14:37:08.818,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 52012 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 14:37:08.820,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 14:37:09.341,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 14:37:09.349,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 14:37:09.350,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 14:37:09.379,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 14:37:09.380,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 537 ms
+2024-09-09 14:37:09.730,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 14:37:09.735,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.18 seconds (process running for 1.545)
+2024-09-09 14:45:29.506,INFO,[StartupInfoLogger.java:50],Starting ApiGatewayApplication using Java 17.0.4.1 with PID 4792 (D:\Project\APIGateway\target\classes started by user in D:\Project\APIGateway)
+2024-09-09 14:45:29.508,INFO,[SpringApplication.java:660],The following 1 profile is active: "Local"
+2024-09-09 14:45:30.041,INFO,[TomcatWebServer.java:109],Tomcat initialized with port 8441 (http)
+2024-09-09 14:45:30.049,INFO,[DirectJDKLog.java:173],Starting service [Tomcat]
+2024-09-09 14:45:30.050,INFO,[DirectJDKLog.java:173],Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 14:45:30.079,INFO,[DirectJDKLog.java:173],Initializing Spring embedded WebApplicationContext
+2024-09-09 14:45:30.079,INFO,[ServletWebServerApplicationContext.java:296],Root WebApplicationContext: initialization completed in 546 ms
+2024-09-09 14:45:30.446,INFO,[TomcatWebServer.java:241],Tomcat started on port 8441 (http) with context path ''
+2024-09-09 14:45:30.452,INFO,[StartupInfoLogger.java:56],Started ApiGatewayApplication in 1.22 seconds (process running for 1.61)
+2024-09-09 14:45:49.167,INFO,[DirectJDKLog.java:173],Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 14:45:49.168,INFO,[FrameworkServlet.java:532],Initializing Servlet 'dispatcherServlet'
+2024-09-09 14:45:49.170,INFO,[FrameworkServlet.java:554],Completed initialization in 1 ms
+2024-09-09 14:45:49.265,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:45:49.265,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:45:49.448,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 14:45:49.448,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 14:45:50.017,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 14:45:50.017,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 14:46:04.460,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:46:04.460,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:46:04.467,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886931656263}
+2024-09-09 14:46:04.468,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886931656263}
+2024-09-09 14:46:04.498,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 14:46:04.499,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+886931656263"}
+2024-09-09 14:46:20.108,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:46:20.109,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:46:20.117,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886931656263}
+2024-09-09 14:46:20.117,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886931656263}
+2024-09-09 14:46:20.152,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 14:46:20.152,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886931656263"}
+2024-09-09 14:46:26.718,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:46:26.718,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:46:26.725,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 14:46:26.725,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 14:46:26.757,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 14:46:26.757,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 14:46:58.202,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:46:58.203,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:46:58.211,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:46:58.211,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:46:58.251,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:46:58.251,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:47:04.091,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:47:04.091,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:47:04.097,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886931656263}
+2024-09-09 14:47:04.098,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886931656263}
+2024-09-09 14:47:04.124,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:47:04.125,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886931656263","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:47:10.370,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:47:10.371,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:47:10.378,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:47:10.378,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:47:10.414,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:47:10.415,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:47:26.018,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:47:26.019,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:47:26.025,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886931656263}
+2024-09-09 14:47:26.025,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886931656263}
+2024-09-09 14:47:26.062,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 14:47:26.063,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+886931656263"}
+2024-09-09 14:54:03.674,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:54:03.675,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:54:03.682,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 14:54:03.682,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886909203926}
+2024-09-09 14:54:03.719,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 14:54:03.720,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 14:54:35.305,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:54:35.306,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:54:35.311,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886931656263}
+2024-09-09 14:54:35.312,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=number-verification-verify-read&state=886931656263}
+2024-09-09 14:54:35.342,INFO,[ResourceController.java:38],api gateway call Number Verification: verify...
+2024-09-09 14:54:35.342,INFO,[ResourceController.java:39],phoneNumberRequest: {"phoneNumber":"+886931656263"}
+2024-09-09 14:55:00.272,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:55:00.273,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:55:00.279,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 14:55:00.280,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=retrieve-sim-swap-date&state=886909203926}
+2024-09-09 14:55:00.301,INFO,[ResourceController.java:66],api gateway call SIM Swap: retrieve-date...
+2024-09-09 14:55:00.301,INFO,[ResourceController.java:67],phoneNumberRequest: {"phoneNumber":"+886909203926"}
+2024-09-09 14:55:23.153,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:55:23.153,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:55:23.158,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:55:23.158,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886909203926}
+2024-09-09 14:55:23.183,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:55:23.183,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886909203926","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
+2024-09-09 14:55:46.475,INFO,[AAAUtils.java:64],result: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:55:46.476,INFO,[OAuthController.java:41],stateMap: {ReturnCode=0, RtnCode=1}
+2024-09-09 14:55:46.483,INFO,[AuthUtils.java:60],result: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886931656263}
+2024-09-09 14:55:46.483,INFO,[OAuthController.java:46],authMap: {returnCode=00, authorizeUrl=http://localhost:8442/Auth/api/authorize?client_id=Meta&redirect_uri=http://localhost:8441/ApiGateway/api/token&response_type=code&scope=device-status:roaming:read&state=886931656263}
+2024-09-09 14:55:46.516,INFO,[ResourceController.java:94],api gateway call Roaming Status: roaming...
+2024-09-09 14:55:46.516,INFO,[ResourceController.java:95],roamingRequest: {"device":{"phoneNumber":"+886931656263","networkAccessIdentifier":null,"ipv4Address":{"publicAddress":null,"publicPort":0},"ipv6Address":null}}
